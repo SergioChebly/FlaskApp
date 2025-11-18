@@ -2,12 +2,11 @@ name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
-
   test:
     name: Run Unit Tests
     runs-on: ubuntu-latest
